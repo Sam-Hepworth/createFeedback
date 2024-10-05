@@ -1,3 +1,5 @@
+// Developed for Nodejs on Amazon Lambda
+
 import * as fs from 'node:fs';
 import https from 'https';
 
