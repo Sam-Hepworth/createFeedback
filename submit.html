@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Feedback</title>
+    <style type="text/css">
+      @font-face {
+        font-family: "sans-serif";
+      }
+      html {
+        box-sizing: border-box;
+      }
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+      body {
+        font-family: Helvetica, Arial, sans-serif;
+        text-align: center;
+        margin: 0px auto;
+      }
+      #page {
+        width: 100%;
+        max-width: 800px;
+        text-align: left;
+        margin: 0px auto;
+      }
+    </style>
+    <script>
+      if (window.history.replaceState)
+         window.history.replaceState(null, document.title, "/");
+    </script>
+  </head>
+  <body><div id="page">
+    <h1>Thanks</h1>
+    <p>Thanks for your feedback. We read all feedback, and strive to reply within four weeks.</p>
+    <p><a href="/">Give more feedback</a></p>
+    <h1>Debug</h1>
+    {debug}
+  </div></body>
+</html>
