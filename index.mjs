@@ -1,5 +1,3 @@
-// https://o5u4rphxbc3o2fppgqdieto5li0gfxzd.lambda-url.eu-north-1.on.aws/
-
 import * as fs from 'node:fs';
 import https from 'https';
 
